@@ -35,7 +35,6 @@ El algoritmo completa automáticamente todo el proceso de análisis documental:
 Los modelos usados son open source:  
 - **Mistral 7B**  
 - **LLaMA 3 8B**  
-- **Mixtral 8x7B**  
 
 Todos ejecutados localmente mediante `llama-cpp-python`.
 
@@ -88,11 +87,11 @@ pip install -r requirements.txt
 
 ## 7. 🚀 Ejecución del Sistema
 
-1. Coloque los PDFs en `data/`.  
-2. Seleccione el modelo LLM en el notebook.  
-3. Ajuste parámetros de análisis.  
-4. Ejecute el notebook de arriba hacia abajo.  
-5. Revise resultados en `outputs/`.
+1. Colocar los PDFs en `data/`.  
+2. Seleccionar el modelo LLM en el notebook.  
+3. Ajustear parámetros de análisis.  
+4. Ejecutar el notebook de arriba hacia abajo.  
+5. Revisar resultados en `outputs/`.
 
 ---
 
@@ -104,17 +103,6 @@ import pandas, numpy, llama_cpp
 print("Entorno validado correctamente.")
 EOF
 ```
-
----
-
-## 9. ❗ Problemas Comunes
-
-| Problema | Causa | Solución |
-|----------|--------|----------|
-| Error al cargar modelo | GGUF incompatible | Descargar versión correcta |
-| Texto incompleto | PDF escaneado | Aplicar OCR (Tesseract) |
-| Predicciones incoherentes | Modelo pequeño | Usar 7B+ |
-| Unicode extraño | PDF irregular | Activar chardet + regex |
 
 ---
 
