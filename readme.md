@@ -70,22 +70,7 @@ pip install -r requirements.txt
 
 ---
 
-## 6. 📁 Estructura Recomendada del Proyecto
-
-```
-/project-root
-├── notebooks/
-├── models/
-├── data/
-├── outputs/
-├── utils/
-├── requirements.txt
-└── README.md
-```
-
----
-
-## 7. 🚀 Ejecución del Sistema
+## 6. 🚀 Ejecución del Sistema
 
 1. Colocar los PDFs en `data/`.  
 2. Seleccionar el modelo LLM en el notebook.  
@@ -95,7 +80,7 @@ pip install -r requirements.txt
 
 ---
 
-## 8. 🧪 Validación del Entorno
+## 7. 🧪 Validación del Entorno
 
 ```bash
 python - << EOF
